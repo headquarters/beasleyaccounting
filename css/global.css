@@ -1,27 +1,29 @@
 body {
-	line-height:1.2;
+  font-family: sans-serif;
+	line-height: 1.2;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	line-height:1;
-	margin:0.25em 0;
+  font-family: serif;
+	line-height: 1;
+	margin: 0.25em 0;
 }
 
 h1 {
-	font-size:2em;
-	color:#444;
+	font-size: 2em;
+	color: #444;
 }
 
 h2 {
-	font-size:1.8em;
-	color:#333;
-	margin-top:0.9em;
+	font-size: 1.8em;
+	color: #333;
+	margin-top: 0.9em;
 }
 
 h3 {
-	font-size:1.4em;
-	color:#444;
-	margin-top:0.8em;
+	font-size: 1.4em;
+	color: #444;
+	margin-top: 0.8em;
 }
 
 .clearfix:before, .clearfix:after {
@@ -34,77 +36,76 @@ h3 {
 }
 
 header h1 {
-	font-weight:normal;
+	font-weight: normal;
 	text-transform: uppercase;
 }
 
 header h1 a {
-	color:#444;
+	color: #444;
 	text-decoration: none;
 }
 
 
 header h1 a img {
-	max-width:100px;
+	max-width: 100px;
 	vertical-align: middle;
-	float:left;
+	float: left;
 }
 
 header h1 a span {
-	float:left;
-	margin-left:0.5em;
-	margin-top:1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 1em;
 }
 
 /* allows full-width background on containers outside .wrapper */
 .wrapper {
-	max-width:65em;
-	padding:0 1em;
-	margin:0 auto;
+	max-width: 65em;
+	padding: 0 1em;
+	margin: 0 auto;
 }
 
 p {
-	margin:0.5em 0;
-	/*font-size:1.1em;*/
+	margin: 0.5em 0;
 }
 
 address {
-	font-style:normal;
+	font-style: normal;
 }
 
 #phone-fax {
-	padding:0;
-	list-style:none;
+	padding: 0;
+	list-style: none;
 }
 
 #email-block fieldset {
-	border:1px solid #ccc;
+	border: 1px solid #ccc;
 }
 
 #email-block legend {
-	color:#444;
+	color: #444;
 }
 
 #email-block form label {
-	display:block;
-	margin:0.75em 0 0.25em;
+	display: block;
+	margin: 0.75em 0 0.25em;
 }
 
 #email-block form label input,
 #email-block form label textarea {
-	min-width:45%;
-	padding:5px;
-	border:1px solid #666;
+	min-width: 45%;
+	padding: 5px;
+	border: 1px solid #666;
 }
 
 #email-block form button {
-	margin-top:1em;
-	font-weight:bold;
-	font-size:1em;
+	margin-top: 1em;
+	font-weight: bold;
+	font-size: 1em;
 	line-height: 1;
-	padding:0.5em 1.2em;
-	color:#fff;
-	border:1px solid #3F8ACF;
+	padding: 0.5em 1.2em;
+	color: #fff;
+	border: 1px solid #3F8ACF;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;	
@@ -119,16 +120,16 @@ address {
 }
 
 #email-block form label textarea {
-	min-height:6em;
-	max-height:8em;
+	min-height: 6em;
+	max-height: 8em;
 }
 
 #email-block .first {
-	margin-top:0.5em;
+	margin-top: 0.5em;
 }
 
 #location-images {
-	margin-top:1em;
+	margin-top: 1em;
 }
 
 #location-images img {
@@ -137,12 +138,12 @@ address {
 
 #location-images .image {
 	float: left;
-	margin-right:1em;
-	margin-bottom:1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
 }
 
 #google-map {
-	display:inline-block;
+	display: inline-block;
 }
 
 #coupon {
@@ -150,66 +151,66 @@ address {
 }
 
 #email-block {
-	margin-top:1em;
+	margin-top: 1em;
 }
 
 form p {
-	margin:0.2em 0;
+	margin: 0.2em 0;
 }
 form .error {
-	color:red;
+	color: red;
 }
 
 form .warning {
-	color:orange;
+	color: orange;
 }
 
 form .notice {
-	color:green;
+	color: green;
 }
 
 footer {
-	font-size:0.8em;
-	text-align:center;
-	color:#666;
+	font-size: 0.8em;
+	text-align: center;
+	color: #666;
 }
 
 footer.wrapper {
-	padding:1em;
+	padding: 1em;
 }
 
 #honeypot {
-	display:none;
+	display: none;
 }
 
 @media screen and (max-width: 600px) {
 	header h1 a img {
-		margin:0 auto;
-		display:block;
-		float:none;
+		margin: 0 auto;
+		display: block;
+		float: none;
 	}
 	
 	header h1 a {
-		text-align:center;
+		text-align: center;
 	}
 
 	header h1 a span {
-		margin-left:0;
+		margin-left: 0;
 	}
 
 	#email-block form label span {
-		text-align:left;
+		text-align: left;
 	}
 	
 	#email-block form label input,
 	#email-block form label textarea {
-		width:80%;
+		width: 80%;
 	}
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width: 1000px){
 	#email-block fieldset {
-		width:60%;
+		width: 60%;
 	}
 }
 
