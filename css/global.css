@@ -43,19 +43,20 @@ header h1 {
 header h1 a {
 	color: #444;
 	text-decoration: none;
+	display: flex;
+	align-items: center;
 }
 
 
 header h1 a img {
 	max-width: 100px;
 	vertical-align: middle;
-	float: left;
+	flex-shrink: 0;
 }
 
 header h1 a span {
-	float: left;
 	margin-left: 0.5em;
-	margin-top: 1em;
+	display: inline-block;
 }
 
 /* allows full-width background on containers outside .wrapper */
@@ -188,15 +189,12 @@ footer.wrapper {
 		margin: 0 auto;
 		display: block;
 		float: none;
+		flex-shrink: 0;
 	}
 	
 	header h1 a {
-		text-align: center;
-	}
-
-	header h1 a span {
-		margin-left: 0;
-		margin-top: 0.5em;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	#email-block form label span {
